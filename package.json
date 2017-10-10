@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node Server.js"
+    "start": "node server.js"
   },
   "author": "",
   "dependencies": {
     "express": "^4.16.1",
     "particles.js": "^2.0.0"
+  },
+  "engines": {
+    "node": "8.6.0"
   }
 }
