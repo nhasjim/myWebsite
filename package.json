@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.16.1",
+    "particles.js": "^2.0.0"
+  }
+}
