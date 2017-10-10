@@ -16,9 +16,18 @@ router.get("/about",function(req,res){
   res.sendFile(path + "about.html");
 });
 
+router.get("/projects",function(req,res){
+  res.sendFile(path + "projects.html");
+});
+
 router.get("/contact",function(req,res){
   res.sendFile(path + "contact.html");
 });
+
+router.get("/resume",function(req,res){
+  res.sendFile(path + "resume.html");
+});
+
 
 app.use("/",router);
 app.use('/scripts', express.static(__dirname + '/node_modules/'));
