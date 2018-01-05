@@ -2,8 +2,8 @@
 body{
       background-image: url("../background.jpg");
       overflow:hidden;
-
 }
+
 #particles-js {
   position: fixed;
     overflow: hidden;
